@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "io.github.nvg064.weathrr"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "io.github.nvg064.weathrr"
@@ -32,6 +32,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+    buildFeatures {
+        viewBinding = true
     }
 }
 
